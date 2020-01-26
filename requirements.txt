@@ -1,0 +1,2 @@
+--extra-index-url https://test.pypi.org/simple/
+pycoap>=0.7.0
