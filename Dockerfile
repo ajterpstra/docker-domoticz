@@ -105,6 +105,7 @@ RUN \
  git checkout 8bc67af6 && \
  pip3 install . && \
  pip3 install pyaes && \
+ pip3 install --no-cache-dir -r requirements.txt && \
  echo "**** determine runtime packages using scanelf ****" && \
  RUNTIME_PACKAGES="$( \
 	scanelf --needed --nobanner /var/lib/domoticz/domoticz \
